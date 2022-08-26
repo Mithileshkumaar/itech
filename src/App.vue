@@ -1,6 +1,6 @@
 <template>
-  <div id="nav">
-    <nav class="navbar navbar-light">
+  <div id="nav" style="color: white">
+    <!-- <nav class="navbar navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" style="color: white">WeFOODS</a>
         <form class="d-flex">
@@ -27,7 +27,7 @@
           />
         </form>
       </div>
-    </nav>
+    </nav> -->
     <!-- <router-link to="/about">About</router-link> -->
   </div>
   <router-view />
@@ -53,7 +53,5 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
-img {
 }
 </style>
