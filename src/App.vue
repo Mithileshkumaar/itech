@@ -1,8 +1,8 @@
 <template>
   <div id="nav">
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand">WeFOODS</a>
+        <a class="navbar-brand" style="color: white">WeFOODS</a>
         <form class="d-flex">
           <div class="dropdown">
             <button
@@ -43,6 +43,7 @@
 }
 
 #nav {
+  background-color: rgb(22, 171, 221);
 }
 
 #nav a {
@@ -52,5 +53,7 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+img {
 }
 </style>
